@@ -1,0 +1,24 @@
+# Terraform directories
+.terraform/
+**/.terraform/
+
+# Terraform state
+terraform.tfstate
+terraform.tfstate.backup
+**/terraform.tfstate
+**/terraform.tfstate.backup
+
+# Local state dump
+current_state.json
+
+# Provider binaries
+*.zip
+*.exe
+*.dll
+*.so
+
+# Crash logs
+crash.log
+
+# Lock files (keep root, ignore nested)
+stacks/**/.terraform.lock.hcl
